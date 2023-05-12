@@ -4,6 +4,7 @@ module "aws-dev" {
     regiao_aws = "us-west-2"
     chave = "bernardo-DEV"
     ami = "ami-0fcf52bcf5db7b003"
+    grupo_seguranca = "acesso_geral_dev"
 }
 
 output "IP" {

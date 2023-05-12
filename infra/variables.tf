@@ -13,3 +13,7 @@ variable "instancia" {
 variable "ami" {
     type = string
 }
+
+variable "grupo_seguranca" {
+    type = string
+}
