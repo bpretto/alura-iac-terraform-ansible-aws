@@ -1,19 +1,31 @@
 variable "regiao_aws" {
-    type = string
+  type = string
 }
 
 variable "chave" {
-    type = string
+  type = string
 }
 
 variable "instancia" {
-    type = string
+  type = string
 }
 
 variable "ami" {
-    type = string
+  type = string
 }
 
 variable "grupo_seguranca" {
-    type = string
+  type = string
+}
+
+variable "nome_grupo" {
+  type = string
+}
+
+variable "maximo" {
+  type = number
+}
+
+variable "minimo" {
+  type = number
 }
